@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    
+    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body class="bg-secondary">
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand text-danger" href="#">P.C.'s Personal Computers</a>
+    </nav>
+
+    <div class="container-fluid">
+
+       
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 search-container bg-danger text-light">
+                <label>Filter catalog</label>
+                <input id="txtSearch" placeholder="Search by text" type="text">
+                <button class="btn btn-sm btn-primary text-light bg-secondary" id="btnSearch">Search</button>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+        <div class="row">
+            
+            <div class="col-md-9" id="catalog">
+
+            </div>
+
+        
+            <div class="col-md-3" class="categories">
+                <h4>Categories</h4>
+                <ul class="list-group">
+                       <li class="list-group-item">Laptop</li> 
+                       <li class="list-group-item">Desktop</li>
+                
+                </ul>
+            </div>
+        </div>
+
+        <form>
+            <input type="submit" value="send" class=" btn btn-outline-light button">
+        </form>
+    </div>
+
+
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/store.js"></script>
+   
+ 
+</body>
+
+</html>
